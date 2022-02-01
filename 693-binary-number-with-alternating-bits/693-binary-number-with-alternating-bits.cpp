@@ -1,7 +1,7 @@
 class Solution {
 public:
     bool hasAlternatingBits(int n) {
-       // return !((n ^= n/2) & n + 1);
+        //return !((n ^= n/2) & n + 1);
         int x = n % 2;
         while(n){
             int y = x;
