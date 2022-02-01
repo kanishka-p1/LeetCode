@@ -1,15 +1,15 @@
 class Solution {
 public:
     int maximumDifference(vector<int>& nums) {
-        int maxdiff = -1;
+        int currmin = INT_MAX, res = 0;
         for(int i = 0; i < nums.size(); i++){
-            for(int j = i+1; j < nums.size(); j++){
-                if(nums[i] < nums[j]){
-                    int curr = nums[j] - nums[i];
-                    maxdiff = max(maxdiff, curr);
-                }
-            }
+            currmin = min(currmin, nums[i]);
+            res = max(res, nums[i] - currmin);
         }
-        return maxdiff;
+        if(res == 0){
+            return -1;
+        }
+        else
+            return res;
     }
 };
