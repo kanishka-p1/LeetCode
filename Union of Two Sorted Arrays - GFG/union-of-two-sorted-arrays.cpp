@@ -14,20 +14,20 @@ class Solution{
         //Your code here
         //return vector with correct order of elements
         set<int>s;
-        vector<int>v;
-        for(int i=0;i<n;i++){
+        vector<int>res;
+        for(int i = 0; i < n; i++){
             s.insert(arr1[i]);
             
         }
-        for(int i=0;i<m;i++){
+        for(int i = 0; i < m; i++){
             s.insert(arr2[i]);
             
         }
-        for(auto it=s.begin();it!=s.end();it++){
-            v.push_back(*it);
+        for(auto it = s.begin(); it != s.end(); it++){
+            res.push_back(*it);
             
         }
-        return v;
+        return res;
     }
 };
 
