@@ -12,7 +12,7 @@ class Solution{
         long sum = 0;
         int mod = pow(10, 9) + 7;
         for(int i = 0; i < n; i++){
-            sum += (long)a[i] * i;
+            sum += ((long)a[i] * i);
         }
         return sum % mod;
     }
