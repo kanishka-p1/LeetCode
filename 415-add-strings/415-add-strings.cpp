@@ -7,16 +7,12 @@ public:
         int carry = 0;
         
         while(i >= 0 || j >=0 || carry != 0){
-            int sum = 0;
-            if(i >= 0){
-                sum += num1[i] - '0';
-                i--;
-            }
-            if(j >= 0){
-                sum += num2[j] - '0';
-                j--;
-            }
-            sum += carry;
+            
+            int ival = i >= 0 ? num1[i] - '0' : 0;
+            int jval = j >= 0 ? num2[j] - '0' : 0;
+            i--;
+            j--;
+            int sum = ival + jval + carry;
             carry = sum / 10;
             sum = sum % 10;
             res = res + to_string(sum);
