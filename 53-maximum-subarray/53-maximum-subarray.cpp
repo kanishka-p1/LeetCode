@@ -1,12 +1,11 @@
 class Solution {
 public:
-    //Kadane's algorithm
     int maxSubArray(vector<int>& nums) {
-        int sum = 0, maxSum = INT_MIN;
+        int ans = INT_MIN, sum = 0;
         for(auto it : nums){
             sum = max(it, sum + it);
-            maxSum = max(maxSum, sum);
+            ans = max(sum, ans);
         }
-        return maxSum;
+        return ans;
     }
 };
