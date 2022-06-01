@@ -9,7 +9,6 @@ public:
         if(ans == 0){
             return 0;
         }
-        else
-            return ans;
+        return ans;
     }
 };
