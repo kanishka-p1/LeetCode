@@ -9,39 +9,35 @@ using namespace std;
 
 class Solution{   
 public:
-
-    bool helper(vector<int> arr, int sum, int n, vector<vector<int>>& dp) {
-        if(n == 0 && sum == 0) {
-            return true;
-        }
-        
-        if(n == 0) {
-            return false;
-        }
-        
-        if(sum == 0) {
-            return true;
-        }
-        
-        if(dp[n][sum] != -1) {
-            return dp[n][sum];
-        }
-        
-        if(arr[n - 1] <= sum) {
-            dp[n][sum] = helper(arr, sum, n - 1, dp) ||helper(arr, sum - arr[n - 1], n - 1, dp);
-        }
-        else {
-            dp[n][sum] = helper(arr, sum, n - 1, dp);
-        }
-        
-        return dp[n][sum];
-    }
-    
     bool isSubsetSum(vector<int>arr, int sum){
         // code here 
-        int n = arr.size();
-        vector<vector<int>> dp(n + 1, vector<int>(sum + 1, -1));
-        return helper(arr, sum, n, dp);
+        int n = arr.size() + 1;
+        int m = sum + 1;
+        
+        vector<vector<bool>> dp(n, vector<bool>(m));
+        
+        //if array consist of any number of elements but the sum is 0
+        for(int i = 0; i < n; i++) {
+            dp[i][0] = true;
+        }
+        
+        //if array is 0 and sum is > 0
+        for(int j = 1; j < m; j++) {
+            dp[0][j] = false;
+        }
+        
+        for(int i = 1; i < n; i++) {
+            for(int j = 1; j < m; j++) {
+                if(arr[i - 1] <= j) {
+                    dp[i][j] = dp[i - 1][j - arr[i - 1]] || dp[i - 1][j];
+                }
+                else {
+                    dp[i][j] = dp[i - 1][j];
+                }
+            }
+        }
+        
+        return dp[n - 1][m - 1];
     }
 };
 
