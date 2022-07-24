@@ -10,7 +10,7 @@ public:
         int i = 1;
         int ans = 1;
         
-        while(i < s * l) {
+        while(i <= min(s, l)) {
             if(s % i == 0 && l % i == 0) {
                 ans = i;
             }
