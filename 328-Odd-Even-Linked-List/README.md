@@ -10,7 +10,7 @@ You must solve the problem in O(1) extra space complexity and O(n) time complexi
   
   <p>&nbsp;</p>
 <p><strong>Example 1:</strong></p>
-![image](https://user-images.githubusercontent.com/92727668/197330802-885534f9-2dcf-48fa-9e79-557efb0882ef.png)
+<img>![image](https://user-images.githubusercontent.com/92727668/197330802-885534f9-2dcf-48fa-9e79-557efb0882ef.png)</img>
 <pre><strong>Input:</strong> head = [1,1,2]
 <strong>Output:</strong> [1,2]
 </pre>
