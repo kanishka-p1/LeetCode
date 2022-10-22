@@ -18,7 +18,7 @@ You must solve the problem in O(1) extra space complexity and O(n) time complexi
   
   <p>&nbsp;</p>
 <p><strong>Example 2:</strong></p>
-  <img alt="" src="https://assets.leetcode.com/uploads/2021/03/10/oddeven2-linked-list.jpg" style="width: 302px; height: 242px;">
+  <img alt="" src="https://assets.leetcode.com/uploads/2021/03/10/oddeven2-linked-list.jpg" style="width: 480px; height: 242px;">
 <pre><strong>Input:</strong> head = [2,1,3,5,6,4,7]
 <strong>Output:</strong> [2,3,6,7,1,5,4]
 </pre>
