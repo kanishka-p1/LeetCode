@@ -10,7 +10,24 @@ You must solve the problem in O(1) extra space complexity and O(n) time complexi
   
   <p>&nbsp;</p>
 <p><strong>Example 1:</strong></p>
-<img>![image](https://user-images.githubusercontent.com/92727668/197330802-885534f9-2dcf-48fa-9e79-557efb0882ef.png)</img>
-<pre><strong>Input:</strong> head = [1,1,2]
-<strong>Output:</strong> [1,2]
+  <img alt="" src="https://assets.leetcode.com/uploads/2021/03/10/oddeven-linked-list.jpg" style="width: 302px; height: 242px;">
+<pre><strong>Input:</strong> head = [1,2,3,4,5]
+<strong>Output:</strong> [1,3,5,2,4]
 </pre>
+  
+  
+  <p>&nbsp;</p>
+<p><strong>Example 2:</strong></p>
+  <img alt="" src="https://assets.leetcode.com/uploads/2021/03/10/oddeven2-linked-list.jpg" style="width: 302px; height: 242px;">
+<pre><strong>Input:</strong> head = [2,1,3,5,6,4,7]
+<strong>Output:</strong> [2,3,6,7,1,5,4]
+</pre>
+  
+  <p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
+
+<ul>
+	<li>The number of nodes in the linked list is in the range <code>[0, 104]</code>.</li>
+	<li><code>-10^6 &lt;= Node.val &lt;= 10^6</code></li>
+</ul>
+</div>
