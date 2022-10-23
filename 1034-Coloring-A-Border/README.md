@@ -25,7 +25,7 @@ Return the final grid.</p>
   
   
   <p>&nbsp;</p>
-<p><strong>Example 2:</strong></p>
+<p><strong>Example 3:</strong></p>
 <pre><strong>Input:</strong> grid = [[1,1,1],[1,1,1],[1,1,1]], row = 1, col = 1, color = 2
 <strong>Output:</strong> [[2,2,2],[2,1,2],[2,2,2]]
 </pre>
