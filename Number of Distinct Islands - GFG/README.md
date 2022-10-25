@@ -57,7 +57,7 @@ You don't need to read or print anything. Your task is to complete the function 
 &nbsp;</p>
 
 <p><span style="font-size:18px"><strong>Constraints:</strong><br>
-1 &lt;= N &lt;= 100</span><br>
+1 &lt;= n, m &lt;= 500</span><br>
 <span style="font-size:18px">1&lt;= arr[i] &lt;= 100<br>
 1&lt;= sum &lt;= 10<sup>5</sup></span></p>
  <p></p>
