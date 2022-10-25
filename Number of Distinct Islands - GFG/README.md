@@ -49,3 +49,16 @@ are equal, So we have 3 distinct islands.</span>
 <p><br>
 <span style="font-size:18px"><strong>Your Task:&nbsp;&nbsp;</strong><br>
 You don't need to read or print anything. Your task is to complete the function countDistinctIslands() which takes the grid as an input parameter and returns the total number of distinct islands.</p>
+
+  
+  
+<p><span style="font-size:18px"><strong>Expected Time Complexity:</strong> O(n * m)<br>
+<strong>Expected Space Complexity:</strong> O(n * m)</span><br>
+&nbsp;</p>
+
+<p><span style="font-size:18px"><strong>Constraints:</strong><br>
+1 &lt;= N &lt;= 100</span><br>
+<span style="font-size:18px">1&lt;= arr[i] &lt;= 100<br>
+1&lt;= sum &lt;= 10<sup>5</sup></span></p>
+ <p></p>
+            </div>
