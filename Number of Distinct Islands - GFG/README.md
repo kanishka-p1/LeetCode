@@ -58,7 +58,6 @@ You don't need to read or print anything. Your task is to complete the function 
 
 <p><span style="font-size:18px"><strong>Constraints:</strong><br>
 1 &lt;= n, m &lt;= 500</span><br>
-<span style="font-size:18px">1&lt;= arr[i] &lt;= 100<br>
-1&lt;= sum &lt;= 10<sup>5</sup></span></p>
+grid[i][j] == 0 or grid[i][j] == 1
  <p></p>
             </div>
