@@ -44,3 +44,8 @@ Same colored islands are equal.
 We have 4 islands, but 2 of them
 are equal, So we have 3 distinct islands.</span>
 </pre>
+
+
+<p><br>
+<span style="font-size:18px"><strong>Your Task:&nbsp;&nbsp;</strong><br>
+You don't need to read or print anything. Your task is to complete the function countDistinctIslands() which takes the grid as an input parameter and returns the total number of distinct islands.</p>
