@@ -6,12 +6,12 @@
     <li><code>2</code> representing a rotten orange.</li>
   </ul>
   Every minute, any fresh orange that is <strong>4-directionally adjacent</strong> to a rotten orange becomes rotten.
-  <em>Return the minimum number of minutes that must elapse until no cell has a fresh orange. If this is impossible, return <code>-1</code>.<em>
+  <em>Return the minimum number of minutes that must elapse until no cell has a fresh orange. If this is impossible, return <code>-1</code>.</em>
   </p>
 
  <p>&nbsp;</p>
 <p><strong>Example 1:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2019/02/16/oranges.png" style="width: 400px; height: 250px;">
+<img alt="" src="https://assets.leetcode.com/uploads/2019/02/16/oranges.png" style="width: 600px; height: 250px;">
 <pre><strong>Input:</strong> grid = [[2,1,1],[1,1,0],[0,1,1]]
 <strong>Output:</strong> 4
 </pre>
