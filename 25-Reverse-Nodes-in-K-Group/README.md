@@ -7,7 +7,7 @@ You may not alter the values in the list's nodes, only nodes themselves may be c
   
   <p>&nbsp;</p>
 <p><strong>Example 1:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2020/10/03/reverse_ex1.jpg" style="width: 600px; height: 287px;">
+<img alt="" src="https://assets.leetcode.com/uploads/2020/10/03/reverse_ex1.jpg" style="width: 500px; height: 287px;">
 <pre><strong>Input:</strong> head = [1,2,3,4,5], k = 2
 <strong>Output:</strong> [2,1,4,3,5]
 </pre>
@@ -15,7 +15,7 @@ You may not alter the values in the list's nodes, only nodes themselves may be c
   
   <p>&nbsp;</p>
 <p><strong>Example 2:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2020/10/03/reverse_ex2.jpg" style="width: 600px; height: 287px;">
+<img alt="" src="https://assets.leetcode.com/uploads/2020/10/03/reverse_ex2.jpg" style="width: 500px; height: 287px;">
 <pre><strong>Input:</strong> head = [1,2,3,4,5], k = 3
 <strong>Output:</strong> [3,2,1,4,5]
 </pre>
