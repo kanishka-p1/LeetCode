@@ -11,7 +11,7 @@
 
  <p>&nbsp;</p>
 <p><strong>Example 1:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2019/02/16/oranges.png" style="width: 600px; height: 250px;">
+<img alt="" src="https://assets.leetcode.com/uploads/2019/02/16/oranges.png" style="width: 700px; height: 250px;">
 <pre><strong>Input:</strong> grid = [[2,1,1],[1,1,0],[0,1,1]]
 <strong>Output:</strong> 4
 </pre>
