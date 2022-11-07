@@ -1,7 +1,7 @@
 <h2><a href="https://leetcode.com/problems/max-consecutive-ones-iii/">1004. Max Consecutive Ones III</a></h2><h3>Medium</h3><hr><div><p>Given a binary array 
   nums and an integer k, return the maximum number of consecutive 1's in the array if you can flip at most k 0's.</p>
   
-    <p>&nbsp;</p>
+  <p>&nbsp;</p>
 <p><strong>Example 1:</strong></p>
 <pre><strong>Input:</strong> nums = [1,1,1,0,0,0,1,1,1,1,0], k = 2
 <strong>Output:</strong> 6
