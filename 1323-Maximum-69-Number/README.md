@@ -2,7 +2,7 @@
   <p>You are given a positive integer num consisting only of digits 6 and 9.
 <em>Return the maximum number you can get by changing at most one digit (6 becomes 9, and 9 becomes 6).</em></p>
   
-    <p>&nbsp;</p>
+  <p>&nbsp;</p>
 <p><strong>Example 1:</strong></p>
 <pre><strong>Input:</strong> num = 9669
 <strong>Output:</strong> 9969
@@ -13,7 +13,7 @@ Changing the fourth digit results in 9666.
 The maximum number is 9969.
 </pre>
   
-    <p>&nbsp;</p>
+  <p>&nbsp;</p>
 <p><strong>Example 2:</strong></p>
 <pre><strong>Input:</strong> num = 9996
 <strong>Output:</strong> 9999
@@ -21,7 +21,7 @@ The maximum number is 9969.
 </pre>
   
   
-    <p>&nbsp;</p>
+  <p>&nbsp;</p>
 <p><strong>Example 3:</strong></p>
 <pre><strong>Input:</strong> num = 9999
 <strong>Output:</strong> 9999
