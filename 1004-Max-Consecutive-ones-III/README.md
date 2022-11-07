@@ -9,7 +9,7 @@
 Bolded numbers were flipped from 0 to 1. The longest subarray is underlined.
 </pre>
 
-    <p>&nbsp;</p>
+  <p>&nbsp;</p>
 <p><strong>Example 2:</strong></p>
 <pre><strong>Input:</strong> nums = [0,0,1,1,0,0,1,1,1,0,1,1,0,0,0,1,1,1,1], k = 3
 <strong>Output:</strong> 10
